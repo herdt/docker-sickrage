@@ -17,7 +17,7 @@ RUN apt-get -q update && \
 ADD ./start.sh /start.sh
 RUN chmod u+x  /start.sh
 
-VOLUME ["/config", "/data"]
+VOLUME ["/sr-config", "/data"]
 
 EXPOSE 8081
 
